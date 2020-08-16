@@ -1,0 +1,42 @@
+ext {
+    //Koin
+    def koinVersion = '2.1.5'
+    koinDependencies = [
+            koinForAndroid  : "org.koin:koin-android:$koinVersion",
+            koinScope       : "org.koin:koin-androidx-scope:$koinVersion",
+            koinForViewModel: "org.koin:koin-androidx-viewmodel:$koinVersion",
+            koinExt         : "org.koin:koin-androidx-ext:$koinVersion",
+    ]
+
+    //Retrofit
+    def retrofitVersion = '2.9.0'
+    retrofitDependencies = [
+            retrofit             : "com.squareup.retrofit2:retrofit:$retrofitVersion",
+            retrofitConverterGson: "com.squareup.retrofit2:converter-gson:$retrofitVersion"
+    ]
+
+    //Lifecycle
+    def lifecycleVersion = '2.1.0'
+    lifecycleDependencies = [
+            lifecycleExt: "androidx.lifecycle:lifecycle-extensions:$lifecycleVersion",
+            lifecycleViewModel: "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion"
+    ]
+
+    //Material
+    def materialVersion = '1.2.0-alpha04'
+    materialDependencies = [
+            material: "com.google.android.material:material:$materialVersion"
+    ]
+
+    //Gson
+    def gsonVersion = '2.8.5'
+    gsonDependencies = [
+            gson: "com.google.code.gson:gson:$gsonVersion"
+    ]
+
+    //OkHttp
+    def okHttpVersion = '4.2.1'
+    okHttpDependencies = [
+            okHttpInterceptor: "com.squareup.okhttp3:logging-interceptor:$okHttpVersion"
+    ]
+}
