@@ -5,9 +5,6 @@ import com.prestamype.login.domain.entity.Either
 import com.prestamype.login.domain.entity.Failure
 import com.prestamype.login.domain.usecase.AuthUseCase
 
-
 interface EndPoints {
-
     suspend fun auth(params: AuthUseCase.Params) : Either<Failure, LoginResponse>
-
 }

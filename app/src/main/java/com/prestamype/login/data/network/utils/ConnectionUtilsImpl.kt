@@ -4,8 +4,6 @@ import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import android.os.Build
 import android.util.Log
-import com.prestamype.login.data.network.utils.ConnectionUtils
-import java.lang.Exception
 
 
 class ConnectionUtilsImpl(private val applicationContext: Context) :
